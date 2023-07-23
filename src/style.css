@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*
+{
+    background-color: #ff1493;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container {
+ 
+}
+body{
+    align-items: center;
+}
+ .btn {
+     @apply font-bold py-2 px-4 rounded;
+ }
+
+ .btn-blue {
+     @apply bg-blue-500 text-white;
+ }
+
+ .btn-blue:hover {
+     @apply bg-blue-700;
+ }
+ .btn {
+     background-color:white;
+     /* Green */
+     border: none;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+ .rounded-full {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   
+ }
